@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "z7fQnGV7wUU=",
+  "success": true,
+  "projectFilePath": "D:\\CSharp\\YoutubeDownloaderAPI\\YoutubeDownloaderAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\m4d4m\\.nuget\\packages\\anglesharp\\1.2.0\\anglesharp.1.2.0.nupkg.sha512",
+    "C:\\Users\\m4d4m\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.2\\microsoft.aspnetcore.openapi.9.0.2.nupkg.sha512",
+    "C:\\Users\\m4d4m\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\m4d4m\\.nuget\\packages\\youtubeexplode\\6.5.3\\youtubeexplode.6.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
