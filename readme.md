@@ -5,11 +5,23 @@ REST API to download `.mp3` and `.mp4` files.
 
 ---
 
+### First Thing You Need
+- .Net Framework 9.0
+
+---
+
+### How To Use
+- Clone this repository
+- Open Command Prompt
+- Select the folder where you cloned the repo
+- Insert `dotnet run` and execute it
+- Copy the base URL and run it using Postman or another app
+
 ### Methods:
 
 [Video Info](#get-video-info) |
-[Download .mp3](#get-download-mp3-file) |
-[Download .mp4](#get-download-mp4-file)
+[Download .mp4](#get-download-mp4-file) |
+[Download .mp3](#get-download-mp3-file)
 
 ---
 
