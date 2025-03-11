@@ -33,3 +33,4 @@ D:\CSharp\YoutubeDownloaderAPI\obj\Debug\net9.0\refint\YoutubeDownloaderAPI.dll
 D:\CSharp\YoutubeDownloaderAPI\obj\Debug\net9.0\YoutubeDownloaderAPI.pdb
 D:\CSharp\YoutubeDownloaderAPI\obj\Debug\net9.0\YoutubeDownloaderAPI.genruntimeconfig.cache
 D:\CSharp\YoutubeDownloaderAPI\obj\Debug\net9.0\ref\YoutubeDownloaderAPI.dll
+D:\CSharp\YoutubeDownloaderAPI\obj\Debug\net9.0\YoutubeDownloaderAPI.sourcelink.json

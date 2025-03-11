@@ -6,6 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using YoutubeExplode.Videos;
+using YoutubeExplode.Common;
 
 [Route("api/[controller]")] //define the route for the controller
 [ApiController] // Mark this class as an API Controller
@@ -21,7 +22,8 @@ public class YoutubeController : ControllerBase
             var video = await _YoutubeClient.Videos.GetAsync(url);
             var streamManifest = await _YoutubeClient.Videos.Streams.GetManifestAsync(video.Id);
             var qualities = streamManifest.GetVideoStreams().Select(s => new { s.VideoQuality.Label, s.Bitrate, s.Url});
-            return Ok(new { Title = video.Title, Author = video.Author.ChannelTitle, Qualities = qualities });
+            var thumbnailUrl = video.Thumbnails.OrderByDescending(s => s.Resolution.Area).FirstOrDefault()?.Url;
+            return Ok(new { Title = video.Title, Author = video.Author.ChannelTitle, Thumbnail = thumbnailUrl, Qualities = qualities });
         }
         catch (Exception ex)
         {
@@ -29,7 +31,7 @@ public class YoutubeController : ControllerBase
         }
     }
 
-    [HttpGet("download")]
+    [HttpGet("downloadvideo")]
     public async Task<IActionResult> DownloadVideo([FromQuery] string url, [FromQuery] string quality)
     {
         try
