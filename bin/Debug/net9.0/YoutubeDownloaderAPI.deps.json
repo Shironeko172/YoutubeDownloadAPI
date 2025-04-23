@@ -9,7 +9,7 @@
       "YoutubeDownloaderAPI/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "9.0.2",
-          "YoutubeExplode": "6.5.3"
+          "YoutubeExplode": "6.5.4"
         },
         "runtime": {
           "YoutubeDownloaderAPI.dll": {}
@@ -42,14 +42,14 @@
           }
         }
       },
-      "YoutubeExplode/6.5.3": {
+      "YoutubeExplode/6.5.4": {
         "dependencies": {
           "AngleSharp": "1.2.0"
         },
         "runtime": {
           "lib/net9.0/YoutubeExplode.dll": {
-            "assemblyVersion": "6.5.3.0",
-            "fileVersion": "6.5.3.0"
+            "assemblyVersion": "6.5.4.0",
+            "fileVersion": "6.5.4.0"
           }
         }
       }
@@ -82,12 +82,12 @@
       "path": "microsoft.openapi/1.6.17",
       "hashPath": "microsoft.openapi.1.6.17.nupkg.sha512"
     },
-    "YoutubeExplode/6.5.3": {
+    "YoutubeExplode/6.5.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-QhWnnc5BiELsZ9Ss+YWwgEkKoEzfsyfp0n6px2Tr1Fo0ze+dRWVktwYFFdFMbpBy38JJIRHKd/MTBS+Gt8Db5Q==",
-      "path": "youtubeexplode/6.5.3",
-      "hashPath": "youtubeexplode.6.5.3.nupkg.sha512"
+      "sha512": "sha512-SWMvvvC/xEjkDEnQW28xeBXn0mgB7tsNtXvtcMpxYioyVuUWzsx94oWVQgUZIaT+Zbmvj03LaKIwK9mTGKMZQg==",
+      "path": "youtubeexplode/6.5.4",
+      "hashPath": "youtubeexplode.6.5.4.nupkg.sha512"
     }
   }
 }

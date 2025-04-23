@@ -47,7 +47,7 @@
           }
         }
       },
-      "YoutubeExplode/6.5.3": {
+      "YoutubeExplode/6.5.4": {
         "type": "package",
         "dependencies": {
           "AngleSharp": "1.2.0"
@@ -122,10 +122,10 @@
         "microsoft.openapi.nuspec"
       ]
     },
-    "YoutubeExplode/6.5.3": {
-      "sha512": "QhWnnc5BiELsZ9Ss+YWwgEkKoEzfsyfp0n6px2Tr1Fo0ze+dRWVktwYFFdFMbpBy38JJIRHKd/MTBS+Gt8Db5Q==",
+    "YoutubeExplode/6.5.4": {
+      "sha512": "SWMvvvC/xEjkDEnQW28xeBXn0mgB7tsNtXvtcMpxYioyVuUWzsx94oWVQgUZIaT+Zbmvj03LaKIwK9mTGKMZQg==",
       "type": "package",
-      "path": "youtubeexplode/6.5.3",
+      "path": "youtubeexplode/6.5.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -134,7 +134,7 @@
         "lib/net9.0/YoutubeExplode.xml",
         "lib/netstandard2.0/YoutubeExplode.dll",
         "lib/netstandard2.0/YoutubeExplode.xml",
-        "youtubeexplode.6.5.3.nupkg.sha512",
+        "youtubeexplode.6.5.4.nupkg.sha512",
         "youtubeexplode.nuspec"
       ]
     }
@@ -142,7 +142,7 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "Microsoft.AspNetCore.OpenApi >= 9.0.2",
-      "YoutubeExplode >= 6.5.3"
+      "YoutubeExplode >= 6.5.4"
     ]
   },
   "packageFolders": {
@@ -151,11 +151,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CSharp\\YoutubeDownloaderAPI\\YoutubeDownloaderAPI.csproj",
+      "projectUniqueName": "D:\\Project_C#\\YoutubeDownloadAPI\\YoutubeDownloaderAPI.csproj",
       "projectName": "YoutubeDownloaderAPI",
-      "projectPath": "D:\\CSharp\\YoutubeDownloaderAPI\\YoutubeDownloaderAPI.csproj",
+      "projectPath": "D:\\Project_C#\\YoutubeDownloadAPI\\YoutubeDownloaderAPI.csproj",
       "packagesPath": "C:\\Users\\m4d4m\\.nuget\\packages\\",
-      "outputPath": "D:\\CSharp\\YoutubeDownloaderAPI\\obj\\",
+      "outputPath": "D:\\Project_C#\\YoutubeDownloadAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\m4d4m\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -194,7 +194,7 @@
           },
           "YoutubeExplode": {
             "target": "Package",
-            "version": "[6.5.3, )"
+            "version": "[6.5.4, )"
           }
         },
         "imports": [
@@ -216,7 +216,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

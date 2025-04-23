@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CSharp\\YoutubeDownloaderAPI\\YoutubeDownloaderAPI.csproj": {}
+    "D:\\Project_C#\\YoutubeDownloadAPI\\YoutubeDownloaderAPI.csproj": {}
   },
   "projects": {
-    "D:\\CSharp\\YoutubeDownloaderAPI\\YoutubeDownloaderAPI.csproj": {
+    "D:\\Project_C#\\YoutubeDownloadAPI\\YoutubeDownloaderAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CSharp\\YoutubeDownloaderAPI\\YoutubeDownloaderAPI.csproj",
+        "projectUniqueName": "D:\\Project_C#\\YoutubeDownloadAPI\\YoutubeDownloaderAPI.csproj",
         "projectName": "YoutubeDownloaderAPI",
-        "projectPath": "D:\\CSharp\\YoutubeDownloaderAPI\\YoutubeDownloaderAPI.csproj",
+        "projectPath": "D:\\Project_C#\\YoutubeDownloadAPI\\YoutubeDownloaderAPI.csproj",
         "packagesPath": "C:\\Users\\m4d4m\\.nuget\\packages\\",
-        "outputPath": "D:\\CSharp\\YoutubeDownloaderAPI\\obj\\",
+        "outputPath": "D:\\Project_C#\\YoutubeDownloadAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\m4d4m\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -50,7 +50,7 @@
             },
             "YoutubeExplode": {
               "target": "Package",
-              "version": "[6.5.3, )"
+              "version": "[6.5.4, )"
             }
           },
           "imports": [
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

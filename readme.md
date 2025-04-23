@@ -7,9 +7,20 @@ REST API to download `.mp3` and `.mp4` files.
 
 ### First Thing You Need
 - .Net Framework 9.0
+- FFmpeg
 
 ---
+How to set up FFmpeg For windows
+---
+- Open browser and insert this link https://www.gyan.dev/ffmpeg/builds/
+- Download ffmpeg-full.7z
+- Extract the file where you want to save
+- Open Command Prompt
+- Insert this code on cmd `setx PATH "%PATH%;C:\Path\To\ffmpeg\bin"`
+- Replace `C:\Path\To\ffmpeg\bin` with the actual path to your `ffmpeg.exe` file.
+- Execute the code
 
+---
 ### How To Use
 - Clone this repository
 - Open Command Prompt
@@ -21,7 +32,8 @@ REST API to download `.mp3` and `.mp4` files.
 
 [Video Info](#get-video-info) |
 [Download .mp4](#get-download-mp4-file) |
-[Download .mp3](#get-download-mp3-file)
+[Download .mp3](#get-download-mp3-file) | 
+[Multi Download](#post-multi-download)
 
 ---
 
@@ -77,6 +89,34 @@ REST API to download `.mp3` and `.mp4` files.
 **Response:**
 
 `<video-name>.mp3` file
+
+---
+
+#### `Post` Multi Download
+
+**endpoint:** `BaseURL/api/youtube/multidownload/`
+
+If you're using Postman or anything else, click the Headers tab, then add
+
+| Key | Value   |
+| ----- | ------ |
+| `Content-Type` | application/json |
+
+After setting the header, then click body, choose raw, and insert JSON like this
+
+``` json
+[
+    {
+        "url": "youtube url link",
+        "type": "video or audio",
+        "quality": "qualities of the video" // Delete this line if you want to download the audio.
+    }
+]
+```
+
+**Response:**
+
+`downloads.zip` file
 
 ---
 
